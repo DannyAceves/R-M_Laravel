@@ -47,7 +47,7 @@ Esta aplicación utiliza Laravel para buscar y guardar personajes de Rick and Mo
    ```bash
     php artisan key:generate
 
-6. Configura tu base de datos en el archivo .env.
+6. Configura tu base de datos en el archivo .env. adjunto la base de datos que emplie en mi caso
 
     ```bash
     DB_CONNECTION=mysql
