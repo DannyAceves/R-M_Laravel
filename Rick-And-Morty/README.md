@@ -24,49 +24,51 @@ Esta aplicación utiliza Laravel para buscar y guardar personajes de Rick and Mo
    ```bash
    git clone https://github.com/TU_USUARIO/rick-and-morty-app.git
    cd rick-and-morty-app
-
-    composer install
+   composer install
 
 Instala las dependencias de JavaScript:
 
-bash
-
+    ```bash
     npm install
+
 
 Compila los activos:
 
-bash
-
+    ```bash
     npm run dev
 
 Copia el archivo de entorno:
 
-bash
-
+    ```bash
     cp .env.example .env
 
 Genera la clave de aplicación:
 
-bash
-
+    ```bash
     php artisan key:generate
 
 Configura tu base de datos en el archivo .env.
 
+    ```bash
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=rickandmorty 
+    DB_USERNAME=root
+    DB_PASSWORD=
+
 Ejecuta las migraciones de la base de datos:
 
-bash
-
+    ```bash
     php artisan migrate
 
 Inicia el servidor:
 
-
-bash
-
+    ```bash
     php artisan serve
 
-    Abre la aplicación en tu navegador: http://127.0.0.1:8000/
+
+Abre la aplicación en tu navegador: http://127.0.0.1:8000/
 
 Uso
 
@@ -80,3 +82,9 @@ Tecnologías Utilizadas
     Axios
     jQuery
     Composer
+
+    Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+
+
