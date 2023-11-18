@@ -64,3 +64,76 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Rick and Morty App
+
+## Descripción
+Esta aplicación utiliza Laravel para buscar y guardar personajes de Rick and Morty utilizando la [Rick and Morty API](https://rickandmortyapi.com/). Los datos se muestran en una interfaz interactiva utilizando Bootstrap y AJAX.
+
+## Requisitos
+- [Composer](https://getcomposer.org/)
+- [PHP](https://www.php.net/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+## Instalación
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/TU_USUARIO/rick-and-morty-app.git
+   cd rick-and-morty-app
+
+composer install
+
+Instala las dependencias de JavaScript:
+
+bash
+
+npm install
+
+Compila los activos:
+
+bash
+
+npm run dev
+
+Copia el archivo de entorno:
+
+bash
+
+cp .env.example .env
+
+Genera la clave de aplicación:
+
+bash
+
+php artisan key:generate
+
+Configura tu base de datos en el archivo .env.
+
+Ejecuta las migraciones de la base de datos:
+
+bash
+
+php artisan migrate
+
+Inicia el servidor:
+
+bash
+
+    php artisan serve
+
+    Abre la aplicación en tu navegador: http://127.0.0.1:8000/
+
+Uso
+
+    Ingresa el ID de ubicación y presiona "Buscar".
+    Explora los personajes y guarda tus favoritos.
+
+Tecnologías Utilizadas
+
+    Laravel
+    Bootstrap
+    Axios
+    jQuery
+    Composer
