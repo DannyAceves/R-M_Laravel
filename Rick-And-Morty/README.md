@@ -26,28 +26,28 @@ Esta aplicación utiliza Laravel para buscar y guardar personajes de Rick and Mo
    cd rick-and-morty-app
    composer install
 
-Instala las dependencias de JavaScript:
+2. Instala las dependencias de JavaScript:
 
     ```bash
     npm install
 
 
-Compila los activos:
+3. Compila los activos:
 
     ```bash
     npm run dev
 
-Copia el archivo de entorno:
+4. Copia el archivo de entorno:
 
     ```bash
     cp .env.example .env
 
-Genera la clave de aplicación:
+5. Genera la clave de aplicación:
 
-    ```bash
+   ```bash
     php artisan key:generate
 
-Configura tu base de datos en el archivo .env.
+6. Configura tu base de datos en el archivo .env.
 
     ```bash
     DB_CONNECTION=mysql
@@ -57,12 +57,12 @@ Configura tu base de datos en el archivo .env.
     DB_USERNAME=root
     DB_PASSWORD=
 
-Ejecuta las migraciones de la base de datos:
+7. Ejecuta las migraciones de la base de datos:
 
     ```bash
     php artisan migrate
 
-Inicia el servidor:
+8. Inicia el servidor:
 
     ```bash
     php artisan serve
