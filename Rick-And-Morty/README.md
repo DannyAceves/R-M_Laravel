@@ -22,7 +22,7 @@ Esta aplicación utiliza Laravel para buscar y guardar personajes de Rick and Mo
 ## Instalación
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/TU_USUARIO/rick-and-morty-app.git
+   git clone https://github.com/DannyAceves/R-M_Laravel.git
    cd rick-and-morty-app
    composer install
 
